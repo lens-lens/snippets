@@ -1,6 +1,6 @@
 # niemutowalne, nie można zmieniać i dodawać elementów
 
-names=('Lena', "Zuzu", 'Klau') 
+names=('Lena', 'Zuzu', 'Klau') 
 print(names)
 print(names[1])
 # zamiana na liczby

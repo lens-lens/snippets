@@ -32,14 +32,14 @@ def delete_task():
 
 #7: ('4. Zapisz zmiany do pliku')
 def save_tasks_to_file():
-    file =  open('zadanka/tasks.txt', 'w')
+    file =  open('tasks.txt', 'w')
     for task in tasks:
         file.write(task + '\n')
     file.close()
 
 #7: ('4. Zapisz zmiany do pliku') jeśli chcemy, żeby zadania w pliku txt były z listy to do
 def load_tasks_from_file():
-    file = open('zadanka/tasks.txt', "r")
+    file = open('tasks.txt', "r")
     for line in file.readlines():
         tasks.append(line.strip())
     file.close()

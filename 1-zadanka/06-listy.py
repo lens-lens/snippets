@@ -11,7 +11,7 @@ names.append('Klau')
 print(names)
 # sortowanie listy
 names.sort()
-print(f"sortowanie: {names}")
+print(f'sortowanie: {names}')
 # sortowanie listy od tyłu
 names.sort(reverse=True)
 print(names)
