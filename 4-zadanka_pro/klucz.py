@@ -48,6 +48,7 @@ while not player_found_key:
     elif move.lower() == '_':
         print('Idk where are you going')
         continue
+
     
     if player_x == key_x and player_y == key_y:
         print('You found key to Milenka heart!')

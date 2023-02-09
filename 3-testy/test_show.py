@@ -15,5 +15,5 @@ def test_triangle_area(capsys): #capsys - odbiera to, co zwraca nasz program + b
     #then
     assert out == '40.0\n' #ważne! znak końca wiersza
 
-#żeby sprawdzić czy testy przeszły - terminal: pytest .\test_show.py (będąc w odpow. folderze)
-#żeby sprawdzić które testy przeszły - terminal: pytest .\test_show.py -vvv
+#żeby sprawdzić czy testy przeszły - terminal: pytest ./test_show.py (będąc w odpow. folderze)
+#żeby sprawdzić które testy przeszły - terminal: pytest ./test_show.py -vvv

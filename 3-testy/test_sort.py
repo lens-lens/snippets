@@ -40,5 +40,5 @@ class TestSort:
         #then
         assert sorted_names == ['Zu', 'Lena', 'Klau','Jacek']
 
-#żeby sprawdzić czy testy przeszły - terminal: pytest .\test_sort.py (będąc w odpow. folderze)
-#żeby sprawdzić które testy przeszły - terminal: pytest .\test_sort.py -vvv
+#żeby sprawdzić czy testy przeszły - terminal: pytest ./test_sort.py (będąc w odpow. folderze)
+#żeby sprawdzić które testy przeszły - terminal: pytest ./test_sort.py -vvv

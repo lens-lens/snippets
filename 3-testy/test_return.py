@@ -19,5 +19,5 @@ def test_isnt_adult():
     assert not is_adult(17)
     assert not is_adult(8)
 
-#żeby sprawdzić czy testy przeszły - terminal: pytest .\test_return.py (będąc w odpow. folderze)
-#żeby sprawdzić które testy przeszły - terminal: pytest .\test_return.py -vvv
+#żeby sprawdzić czy testy przeszły - terminal: pytest ./test_return.py (będąc w odpow. folderze)
+#żeby sprawdzić które testy przeszły - terminal: pytest ./test_return.py -vvv

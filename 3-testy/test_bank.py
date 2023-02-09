@@ -38,5 +38,5 @@ class TestBank:
         assert money == 30
         assert bank.amount == 70
 
-#żeby sprawdzić czy testy przeszły - terminal: pytest .\test_bank.py (będąc w odpow. folderze)
-#żeby sprawdzić które testy przeszły - terminal: pytest .\test_bank.py -vvv
+#żeby sprawdzić czy testy przeszły - terminal: pytest ./test_bank.py (będąc w odpow. folderze)
+#żeby sprawdzić które testy przeszły - terminal: pytest ./test_bank.py -vvv
