@@ -30,3 +30,6 @@ elif light == 'green':
 else:
     print('Niewłaściwa wartość')
 
+
+message = 'Hello World'
+print(message[0:5]) #wyświetli 5 pierwszych liter
