@@ -21,4 +21,4 @@ def student_info(*args, **kwargs):
 courses = ['Math', 'Art']
 info = {'name': 'Lena', 'age': 27}
 
-student_info(courses, info)
+student_info(*courses, **info)
